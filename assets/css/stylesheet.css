@@ -3,3 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+#welcome{
+    background-image: url(../img/space_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#imgPortafolio img{
+height: 300px;
+}
+
+#portafolio1{
+    animation: pagWeb 10s infinite;
+}
+
+#portafolio2{
+
+    animation: ntrWeb 10s 3s infinite;
+
+}
+
+#portafolio3{
+    animation: fuse 10s 1s infinite;
+}
+
+@keyframes pagWeb{
+    25%{
+    }
+    25{
+
+    }
+}
