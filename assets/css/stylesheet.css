@@ -8,6 +8,12 @@ html{
     scroll-behavior: smooth;
 }
 
+nav a:hover{
+    background-color: rgb(34, 216, 216);
+}
+
+
+
 #welcome{
     background-image: url(../img/space_background.jpg);
     background-size: cover;
@@ -18,6 +24,12 @@ html{
 
 #imgPortafolio img{
 height: 300px;
+}
+
+#frase{
+    background-color: orangered;
+    border: 3px solid;
+    border-radius: 10px;
 }
 
 #portafolio1{
